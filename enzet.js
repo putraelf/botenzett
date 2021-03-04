@@ -69,11 +69,11 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:LilNext\n'
             + 'ORG:Owner UNSAID;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=555197195835:+55 51 9719-5835\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6281253534285:+08 12 5353-4285\n'
             + 'END:VCARD'
 
-prefix = "!"
-name = "~ U N S A I D | B O T"
+prefix = "+"
+name = "~ Bot | PUTRaEnzet"
 rdaftar = "OBRIGADO POR SE REGISTAR!"
 rmenu = "Olá, amigos do UNSAID👋 NÃO SE ESQUEÇA DE ME SEGUIR NO INSTAGRAM:)"
 limitt = 20
@@ -959,7 +959,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('555197195835@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281253534285@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos.')
                     break
                 case 'solicitar':
@@ -974,7 +974,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('515597195835@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281253534285@s.whatsapp.net', options, text, {quoted: mek})
                     reply('SUA SOLICITAÇÃO ATINGIU O proprietário do BOT, solicitações falsas não serão respondidas.')
                     break
 				case 'memeindo':
