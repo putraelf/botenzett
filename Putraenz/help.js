@@ -248,7 +248,7 @@ ${instagram}
 
 ╭─────「 *SUPORTE ${name}* 」
 ┴
-│➲ *LILNEXT*
+│➲ *EnzetFamily*
 ┬
 ╰────────────────────────`
 }
