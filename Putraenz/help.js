@@ -20,6 +20,8 @@ ${instagram}
 ┣⊱  \`\`\`USUÁRIO REGISTRADO:\`\`\` *${user.length} Usuário*
 ┣⊱  ❌ *SPAM*
 ┣⊱  ❌ *CALL & VC*
+┣⊱ MyownerBot:Putraenzet/ wa.me//6281253534285
+┣⊱ Pergunakan bot dengan baik,(be carefull users my bot)
 ┬
 ╰────────────────────────
 
