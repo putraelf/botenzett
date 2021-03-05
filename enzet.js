@@ -73,7 +73,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 
 prefix = "+"
-name = "~ Bot | PUTRaEnzet"
+name = "~ Bot |putraenzet"
 rdaftar = "OBRIGADO POR SE REGISTAR!"
 rmenu = "Olá, amigos do UNSAID👋 NÃO SE ESQUEÇA DE ME SEGUIR NO INSTAGRAM:)"
 limitt = 20
