@@ -4,7 +4,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('Welcome In\nputra Botenzet', {
+CFonts.say('Welcome In\n Botenzet', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
