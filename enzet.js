@@ -67,15 +67,15 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:LilNext\n'
-            + 'ORG:Owner UNSAID;\n'
+            + 'FN:Enzet\n'
+            + 'ORG:Owner Putraenzet;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281253534285:+08 12 5353-4285\n'
             + 'END:VCARD'
 
 prefix = "!"
 name = "~ Bot |putraenzet"
 rdaftar = "OBRIGADO POR SE REGISTAR!"
-rmenu = "Olá, amigos do UNSAID👋 NÃO SE ESQUEÇA DE ME SEGUIR NO INSTAGRAM:)"
+rmenu = "Olá, amigos do Putraenzet👋 NÃO SE ESQUEÇA DE ME SEGUIR NO INSTAGRAM:)"
 limitt = 20
 ban = []
 
@@ -200,7 +200,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["555197195835@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6281253534285@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -368,7 +368,7 @@ async function starts() {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nome do Usuário* : ${me.name}\n⟩➢ *Nome do Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Ativo desde* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/lilnext01/\n⟩`
+					teks = `⟩➢ *Nome do Usuário* : ${me.name}\n⟩➢ *Nome do Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Ativo desde* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* User\n⟩➢ *Instagram* : https://www.instagram.com/Putraenzet/\n⟩`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break 
@@ -596,7 +596,7 @@ async function starts() {
 				    await limitAdd(sender) 	
 				    break 
 				case 'owner':
-                 client.sendMessage(from, {displayname: "unsaid", vcard: vcard}, MessageType.contact, { quoted: mek})
+                 client.sendMessage(from, {displayname: "Putraenzet", vcard: vcard}, MessageType.contact, { quoted: mek})
                  client.sendMessage(from, 'Se você quiser salvar o contato, salve-o de volta:)',text, { quoted: mek} )
                  break
                  case 'fitnah':	
@@ -1805,7 +1805,7 @@ async function starts() {
               client.sendMessage(from, tiktok, image, {quoted: mek})
 			        await limitAdd(sender) 
 			        break 
-		    case 'unsaidjokes':
+		    case 'putrajokes':
 				client.updatePresence(from, Presence.composing) 
 				 if (isBanned) return reply(mess.only.benned)    
 				 if (isLimit(sender)) return reply(limitend(pushname2))
