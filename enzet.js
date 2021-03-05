@@ -1,6 +1,6 @@
 /*
 * Tambahin nama author lah
-* Author MhankBarBar, Farhan
+* Author MhankBarBar, Putraelf
 * Tambahin ya Cape Gan ngefix² Yg Ga work
 * Jan numpang nama doank
 
@@ -72,7 +72,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=6281253534285:+08 12 5353-4285\n'
             + 'END:VCARD'
 
-prefix = "+"
+prefix = "!"
 name = "~ Bot |putraenzet"
 rdaftar = "OBRIGADO POR SE REGISTAR!"
 rmenu = "Olá, amigos do UNSAID👋 NÃO SE ESQUEÇA DE ME SEGUIR NO INSTAGRAM:)"
